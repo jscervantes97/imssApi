@@ -211,7 +211,7 @@ class User
     {
         return
             [
-                'id'   => $this->getIdUsuario(),
+                'idUsuario'   => $this->getIdUsuario(),
                 'nombres' => $this->getNombres(),
                 'apellidoPaterno' => $this->getApellidoPaterno(),
                 'apellidoMaterno' => $this->getApellidoMaterno(),
